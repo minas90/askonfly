@@ -754,21 +754,21 @@ form textarea.form-control {
   }
 }
 header {
-  background: #ff8b2f;
+  background: #009688;
   /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #ff8b2f 0%, #b66022 100%);
+  background: -moz-linear-gradient(-45deg, #009688 0%, #00796B 100%);
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #ff8b2f), color-stop(100%, #b66022));
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #009688), color-stop(100%, #00796B));
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(-45deg, #ff8b2f 0%, #b66022 100%);
+  background: -webkit-linear-gradient(-45deg, #009688 0%, #00796B 100%);
   /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(-45deg, #ff8b2f 0%, #b66022 100%);
+  background: -o-linear-gradient(-45deg, #009688 0%, #00796B 100%);
   /* Opera 11.10+ */
-  background: -ms-linear-gradient(-45deg, #ff8b2f 0%, #b66022 100%);
+  background: -ms-linear-gradient(-45deg, #009688 0%, #00796B 100%);
   /* IE10+ */
-  background: linear-gradient(-45deg, #ff8b2f 0%, #b66022 100%);
+  background: linear-gradient(-45deg, #009688 0%, #00796B 100%);
   /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff8b2f, endColorstr=#b66022, GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#009688, endColorstr=#00796B, GradientType=1);
   /* IE6-9 fallback on horizontal gradient */
 }
 header .navbar-default ul.navbar-nav li a {
@@ -776,7 +776,7 @@ header .navbar-default ul.navbar-nav li a {
   background: none;
 }
 header .navbar-default ul.navbar-nav li a.getApp {
-  color: #d47028;
+  color: #009688;
   background: #ffffff;
   /* Old browsers */
   background: -moz-linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%);
@@ -795,7 +795,7 @@ header .navbar-default ul.navbar-nav li a.getApp {
   /* IE6-9 fallback on horizontal gradient */
 }
 header .navbar-default ul.navbar-nav li a.getApp:hover {
-  color: #d97832;
+  color: #00796B;
   background: #ffffff;
   /* Old browsers */
   background: -moz-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
@@ -827,57 +827,57 @@ header .navbar-default ul.navbar-nav li a:hover {
   transition: all 0.25s ease-in-out;
 }
 header .navbar-default.scrolled {
-  border-bottom: 3px solid #b66022;
+  border-bottom: 3px solid #00796B;
 }
 header .navbar-default.scrolled ul.navbar-nav li a {
-  color: #b66022;
+  color: #00796B;
 }
 header .navbar-default.scrolled ul.navbar-nav li a:hover {
-  color: #b66022;
+  color: #00796B;
 }
 header .navbar-default.scrolled ul.navbar-nav li a:hover:after {
-  background: #b66022;
+  background: #00796B;
 }
 header .navbar-default.scrolled .navbar-brand {
-  background: #b66022;
+  background: #00796B;
 }
 section .section-heading .divider:after {
-  background: #ff8b2f;
+  background: #009688;
 }
 section#about .about-item i.fa {
-  border: 2px solid #ff8b2f;
-  color: #ff8b2f;
+  border: 2px solid #009688;
+  color: #009688;
 }
 section#about .about-item:hover i.fa {
   color: #ffffff;
-  background: #ff8b2f;
+  background: #009688;
 }
 section#about .about-item:hover h3 {
-  color: #ff8b2f;
+  color: #009688;
 }
 section#features {
   background: #f6f6f6;
 }
 section#features header h1:after {
-  background: #ff8b2f;
+  background: #009688;
 }
 section#features .media i.fa {
-  border: 2px solid #ff8b2f;
-  color: #ff8b2f;
+  border: 2px solid #009688;
+  color: #009688;
 }
 section#features .media:hover i.fa {
   color: #ffffff;
-  background: #ff8b2f;
+  background: #009688;
 }
 section#features .media:hover h3 {
-  color: #ff8b2f;
+  color: #009688;
 }
 section#features .media.active i.fa {
   color: #ffffff;
-  background: #ff8b2f;
+  background: #009688;
 }
 section#features .media.active .media-heading {
-  color: #ff8b2f;
+  color: #009688;
 }
 section#reviews {
   background: url("../img/freeze/bk-freeze.jpg");
@@ -895,10 +895,10 @@ section#reviews .review-filtering .review .review-comment {
   background: #ffffff;
 }
 section#reviews .review-filtering .review .review-comment h3 {
-  color: #ff8b2f;
+  color: #009688;
 }
 section#reviews .review-filtering .review .review-comment p span i {
-  color: #ff8b2f;
+  color: #009688;
 }
 section#reviews .review-filtering .review .review-comment:after {
   border-right-color: #ffffff;
@@ -908,10 +908,10 @@ section#reviews .review-filtering .slick-dots li button {
   border: 2px solid #ffffff;
 }
 section#reviews .review-filtering .slick-dots li.slick-active button {
-  background: #ff8b2f;
+  background: #009688;
 }
 section#screens header h1:after {
-  background: #ff8b2f;
+  background: #009688;
 }
 section#screens .slider div img {
   border: 2px solid #e5e5e5;
@@ -923,7 +923,7 @@ section#screens .slider .slick-dots li button {
   background: #999999;
 }
 section#screens .slider .slick-dots li.slick-active button {
-  background: #ff8b2f;
+  background: #009688;
 }
 section#screens .filter a {
   border: 2px solid #cccccc;
@@ -931,20 +931,20 @@ section#screens .filter a {
 }
 section#screens .filter a:hover {
   color: #ffffff;
-  background: #ff8b2f;
-  border-color: #ff8b2f;
+  background: #009688;
+  border-color: #009688;
 }
 section#screens .filter a.active {
   color: #ffffff;
-  background: #ff8b2f;
-  border-color: #ff8b2f;
+  background: #009688;
+  border-color: #009688;
 }
 /* demo video Section */
 section#demo {
   background: #f6f6f6;
 }
 section#demo header h1:after {
-  background: #ff8b2f;
+  background: #009688;
 }
 /* Get app Section */
 section#getApp {
@@ -972,43 +972,43 @@ section#getApp .platforms .media:hover {
 }
 section#getApp .platforms .media:hover a i,
 section#getApp .platforms .media:hover a div.media-body {
-  color: #ff8b2f;
+  color: #009688;
 }
 /* support section */
 section#support header h1:after {
-  background: #ff8b2f;
+  background: #009688;
 }
 section#support .media i.fa {
-  border: 2px solid #ff8b2f;
-  color: #ff8b2f;
+  border: 2px solid #009688;
+  color: #009688;
 }
 section#support .media a {
-  color: #ff8b2f;
+  color: #009688;
 }
 section#support .media:hover i.fa {
   color: #ffffff;
-  background: #ff8b2f;
+  background: #009688;
 }
 section#support .media:hover h3 {
-  color: #ff8b2f;
+  color: #009688;
 }
 /* footer section */
 footer {
-  background: #ff8b2f;
+  background: #009688;
   /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #ff8b2f 0%, #b66022 100%);
+  background: -moz-linear-gradient(-45deg, #009688 0%, #00796B 100%);
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #ff8b2f), color-stop(100%, #b66022));
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #009688), color-stop(100%, #00796B));
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(-45deg, #ff8b2f 0%, #b66022 100%);
+  background: -webkit-linear-gradient(-45deg, #009688 0%, #00796B 100%);
   /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(-45deg, #ff8b2f 0%, #b66022 100%);
+  background: -o-linear-gradient(-45deg, #009688 0%, #00796B 100%);
   /* Opera 11.10+ */
-  background: -ms-linear-gradient(-45deg, #ff8b2f 0%, #b66022 100%);
+  background: -ms-linear-gradient(-45deg, #009688 0%, #00796B 100%);
   /* IE10+ */
-  background: linear-gradient(-45deg, #ff8b2f 0%, #b66022 100%);
+  background: linear-gradient(-45deg, #009688 0%, #00796B 100%);
   /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff8b2f, endColorstr=#b66022, GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#009688, endColorstr=#00796B, GradientType=1);
   /* IE6-9 fallback on horizontal gradient */
 }
 footer .social a {
@@ -1021,7 +1021,7 @@ footer .social a:hover {
   background: #ffffff;
 }
 footer .social a:hover i {
-  color: #ff8b2f;
+  color: #009688;
 }
 footer .rights {
   color: #ffffff;
@@ -1036,13 +1036,13 @@ footer .rights a {
   border: 1px solid rgba(0, 0, 0, 0);
 }
 .btn.btn-primary {
-  color: #ff8b2f;
-  border-color: #ff8b2f;
+  color: #009688;
+  border-color: #009688;
 }
 .btn.btn-primary:hover {
   color: #ffffff;
-  background: #ff8b2f;
-  border-color: #ff8b2f;
+  background: #009688;
+  border-color: #009688;
 }
 .btn.btn-primary.inverse {
   color: #ffffff;
@@ -1050,8 +1050,8 @@ footer .rights a {
 }
 .btn.btn-primary.inverse:hover {
   color: #ffffff;
-  background: #ff8b2f;
-  border-color: #ff8b2f;
+  background: #009688;
+  border-color: #009688;
 }
 .btn.btn-default {
   background: #ffffff;
@@ -1070,13 +1070,13 @@ footer .rights a {
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#cccccc, GradientType=1);
   /* IE6-9 fallback on horizontal gradient */
-  color: #b66022;
+  color: #00796B;
 }
 .btn.btn-default:hover {
-  color: #b66022;
+  color: #00796B;
 }
 form .form-control:focus {
-  border-color: #ff8b2f;
+  border-color: #009688;
   color: #999999;
 }
 @media screen and (max-width: 640px) {
@@ -1095,21 +1095,21 @@ form .form-control:focus {
     display: none;
   }
   header .navbar-default ul.navbar-nav li a:hover {
-    color: #ff8b2f;
+    color: #009688;
   }
   header .navbar-default .navbar-collapse {
-    background: #b66022;
+    background: #00796B;
   }
   header .navbar-default.scrolled {
-    background: #b66022;
+    background: #00796B;
   }
   header .navbar-default.scrolled ul.navbar-nav li a {
     color: #ffffff;
   }
   header .navbar-default.scrolled ul.navbar-nav li a:hover {
-    color: #ff8b2f;
+    color: #009688;
   }
 }
 .pre-loader {
-  background: #b66022;
+  background: #00796B;
 }
