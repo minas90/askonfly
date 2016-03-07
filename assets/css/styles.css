@@ -15,6 +15,366 @@
   width: 100%;
   height: 100%;
 }
+header {
+  background: #8BC34A;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #8BC34A 0%, #689F38 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #8BC34A), color-stop(100%, #689F38));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg, #8BC34A 0%, #689F38 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg, #8BC34A 0%, #689F38 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg, #8BC34A 0%, #689F38 100%);
+  /* IE10+ */
+  background: linear-gradient(-45deg, #8BC34A 0%, #689F38 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#8BC34A, endColorstr=#689F38, GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+header .navbar-default ul.navbar-nav li a {
+  color: #ffffff;
+  background: none;
+}
+header .navbar-default ul.navbar-nav li a.getApp {
+  color: #79b941;
+  background: #ffffff;
+  /* Old browsers */
+  background: -moz-linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #ffffff), color-stop(100%, #e0e0e0));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%);
+  /* IE10+ */
+  background: linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#e0e0e0, GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+header .navbar-default ul.navbar-nav li a.getApp:hover {
+  color: #81bf4b;
+  background: #ffffff;
+  /* Old browsers */
+  background: -moz-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #ffffff), color-stop(100%, #cccccc));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
+  /* IE10+ */
+  background: linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#cccccc, GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+header .navbar-default ul.navbar-nav li a:hover {
+  color: #ffffff;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+header .navbar-default.scrolled {
+  border-bottom: 3px solid #689F38;
+}
+header .navbar-default.scrolled ul.navbar-nav li a {
+  color: #689F38;
+}
+header .navbar-default.scrolled ul.navbar-nav li a:hover {
+  color: #689F38;
+}
+header .navbar-default.scrolled ul.navbar-nav li a:hover:after {
+  background: #689F38;
+}
+header .navbar-default.scrolled .navbar-brand {
+  background: #689F38;
+}
+section .section-heading .divider:after {
+  background: #8BC34A;
+}
+section#about .about-item i.fa {
+  border: 2px solid #8BC34A;
+  color: #8BC34A;
+}
+section#about .about-item:hover i.fa {
+  color: #ffffff;
+  background: #8BC34A;
+}
+section#about .about-item:hover h3 {
+  color: #8BC34A;
+}
+section#features {
+  background: #f6f6f6;
+}
+section#features header h1:after {
+  background: #8BC34A;
+}
+section#features .media i.fa {
+  border: 2px solid #8BC34A;
+  color: #8BC34A;
+}
+section#features .media:hover i.fa {
+  color: #ffffff;
+  background: #8BC34A;
+}
+section#features .media:hover h3 {
+  color: #8BC34A;
+}
+section#features .media.active i.fa {
+  color: #ffffff;
+  background: #8BC34A;
+}
+section#features .media.active .media-heading {
+  color: #8BC34A;
+}
+section#reviews {
+  background: url("../img/freeze/bk-freeze.jpg");
+}
+section#reviews header {
+  color: #ffffff;
+}
+section#reviews header h1:after {
+  background: #ffffff;
+}
+section#reviews .review-filtering .review .review-person img {
+  border: 3px solid #ffffff;
+}
+section#reviews .review-filtering .review .review-comment {
+  background: #ffffff;
+}
+section#reviews .review-filtering .review .review-comment h3 {
+  color: #8BC34A;
+}
+section#reviews .review-filtering .review .review-comment p span i {
+  color: #8BC34A;
+}
+section#reviews .review-filtering .review .review-comment:after {
+  border-right-color: #ffffff;
+}
+section#reviews .review-filtering .slick-dots li button {
+  background: #ffffff;
+  border: 2px solid #ffffff;
+}
+section#reviews .review-filtering .slick-dots li.slick-active button {
+  background: #8BC34A;
+}
+section#screens header h1:after {
+  background: #8BC34A;
+}
+section#screens .slider div img {
+  border: 2px solid #e5e5e5;
+}
+section#screens .slider div h4 {
+  color: #999999;
+}
+section#screens .slider .slick-dots li button {
+  background: #999999;
+}
+section#screens .slider .slick-dots li.slick-active button {
+  background: #8BC34A;
+}
+section#screens .filter a {
+  border: 2px solid #cccccc;
+  color: #999999;
+}
+section#screens .filter a:hover {
+  color: #ffffff;
+  background: #8BC34A;
+  border-color: #8BC34A;
+}
+section#screens .filter a.active {
+  color: #ffffff;
+  background: #8BC34A;
+  border-color: #8BC34A;
+}
+/* demo video Section */
+section#demo {
+  background: #f6f6f6;
+}
+section#demo header h1:after {
+  background: #8BC34A;
+}
+/* Get app Section */
+section#getApp {
+  /*.bk-gradient(-45deg, @base, @baseDark); */
+  background: #689F38;
+}
+section#getApp header {
+  color: #ffffff;
+}
+section#getApp header h1:after {
+  background: #ffffff;
+}
+section#getApp .platforms .media {
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+section#getApp .platforms .media a i {
+  color: #ffffff;
+}
+section#getApp .platforms .media a div.media-body {
+  color: #ffffff;
+}
+section#getApp .platforms .media:hover {
+  background: #ffffff;
+}
+section#getApp .platforms .media:hover a i,
+section#getApp .platforms .media:hover a div.media-body {
+  color: #8BC34A;
+}
+/* support section */
+section#support header h1:after {
+  background: #8BC34A;
+}
+section#support .media i.fa {
+  border: 2px solid #8BC34A;
+  color: #8BC34A;
+}
+section#support .media a {
+  color: #8BC34A;
+}
+section#support .media:hover i.fa {
+  color: #ffffff;
+  background: #8BC34A;
+}
+section#support .media:hover h3 {
+  color: #8BC34A;
+}
+/* footer section */
+footer {
+  background: #8BC34A;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #8BC34A 0%, #689F38 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #8BC34A), color-stop(100%, #689F38));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg, #8BC34A 0%, #689F38 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg, #8BC34A 0%, #689F38 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg, #8BC34A 0%, #689F38 100%);
+  /* IE10+ */
+  background: linear-gradient(-45deg, #8BC34A 0%, #689F38 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#8BC34A, endColorstr=#689F38, GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+footer .social a {
+  border: 2px solid #ffffff;
+}
+footer .social a i {
+  color: #ffffff;
+}
+footer .social a:hover {
+  background: #ffffff;
+}
+footer .social a:hover i {
+  color: #8BC34A;
+}
+footer .rights {
+  color: #ffffff;
+}
+footer .rights a {
+  color: #ffffff;
+  font-weight: 300;
+  text-decoration: none;
+}
+.navbar-toggle {
+  background-color: #CCC;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+.btn.btn-primary {
+  color: #8BC34A;
+  border-color: #8BC34A;
+}
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background: #8BC34A;
+  border-color: #8BC34A;
+}
+.btn.btn-primary.inverse {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+.btn.btn-primary.inverse:hover {
+  color: #ffffff;
+  background: #8BC34A;
+  border-color: #8BC34A;
+}
+.btn.btn-default {
+  background: #ffffff;
+  /* Old browsers */
+  background: -moz-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #ffffff), color-stop(100%, #cccccc));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
+  /* IE10+ */
+  background: linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#cccccc, GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+  color: #689F38;
+}
+.btn.btn-default:hover {
+  color: #689F38;
+}
+form .form-control:focus {
+  border-color: #8BC34A;
+  color: #999999;
+}
+@media screen and (max-width: 640px) {
+  header .navbar-default .navbar-toggle:hover,
+  header .navbar-default .navbar-toggle:focus {
+    background: none;
+  }
+  header .navbar-default ul.navbar-nav li a {
+    color: #ffffff;
+    border-bottom: 1px solid #6faa3c;
+  }
+  header .navbar-default ul.navbar-nav li a.getApp {
+    color: #ffffff;
+  }
+  header .navbar-default ul.navbar-nav li a:after {
+    display: none;
+  }
+  header .navbar-default ul.navbar-nav li a:hover {
+    color: #8BC34A;
+  }
+  header .navbar-default .navbar-collapse {
+    background: #689F38;
+  }
+  header .navbar-default.scrolled {
+    background: #689F38;
+  }
+  header .navbar-default.scrolled ul.navbar-nav li a {
+    color: #ffffff;
+  }
+  header .navbar-default.scrolled ul.navbar-nav li a:hover {
+    color: #8BC34A;
+  }
+}
+.pre-loader {
+  background: #689F38;
+}
 body {
   font-family: 'Lato', Arial;
   color: #666666;
@@ -25,7 +385,7 @@ a {
   -webkit-font-smoothing: antialiased;
 }
 div.content {
-  overflow: hidden ;
+  overflow: hidden;
 }
 h1,
 h2,
@@ -752,364 +1112,4 @@ form textarea.form-control {
     transform: scale(1);
     -webkit-transform: scale(1);
   }
-}
-header {
-  background: #009688;
-  /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #009688 0%, #00796B 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #009688), color-stop(100%, #00796B));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(-45deg, #009688 0%, #00796B 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(-45deg, #009688 0%, #00796B 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(-45deg, #009688 0%, #00796B 100%);
-  /* IE10+ */
-  background: linear-gradient(-45deg, #009688 0%, #00796B 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#009688, endColorstr=#00796B, GradientType=1);
-  /* IE6-9 fallback on horizontal gradient */
-}
-header .navbar-default ul.navbar-nav li a {
-  color: #ffffff;
-  background: none;
-}
-header .navbar-default ul.navbar-nav li a.getApp {
-  color: #009688;
-  background: #ffffff;
-  /* Old browsers */
-  background: -moz-linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #ffffff), color-stop(100%, #e0e0e0));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%);
-  /* IE10+ */
-  background: linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#e0e0e0, GradientType=1);
-  /* IE6-9 fallback on horizontal gradient */
-}
-header .navbar-default ul.navbar-nav li a.getApp:hover {
-  color: #00796B;
-  background: #ffffff;
-  /* Old browsers */
-  background: -moz-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #ffffff), color-stop(100%, #cccccc));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
-  /* IE10+ */
-  background: linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#cccccc, GradientType=1);
-  /* IE6-9 fallback on horizontal gradient */
-  -webkit-transition: all 0.25s ease-in-out;
-  -moz-transition: all 0.25s ease-in-out;
-  -ms-transition: all 0.25s ease-in-out;
-  -o-transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-in-out;
-}
-header .navbar-default ul.navbar-nav li a:hover {
-  color: #ffffff;
-  -webkit-transition: all 0.25s ease-in-out;
-  -moz-transition: all 0.25s ease-in-out;
-  -ms-transition: all 0.25s ease-in-out;
-  -o-transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-in-out;
-}
-header .navbar-default.scrolled {
-  border-bottom: 3px solid #00796B;
-}
-header .navbar-default.scrolled ul.navbar-nav li a {
-  color: #00796B;
-}
-header .navbar-default.scrolled ul.navbar-nav li a:hover {
-  color: #00796B;
-}
-header .navbar-default.scrolled ul.navbar-nav li a:hover:after {
-  background: #00796B;
-}
-header .navbar-default.scrolled .navbar-brand {
-  background: #00796B;
-}
-section .section-heading .divider:after {
-  background: #009688;
-}
-section#about .about-item i.fa {
-  border: 2px solid #009688;
-  color: #009688;
-}
-section#about .about-item:hover i.fa {
-  color: #ffffff;
-  background: #009688;
-}
-section#about .about-item:hover h3 {
-  color: #009688;
-}
-section#features {
-  background: #f6f6f6;
-}
-section#features header h1:after {
-  background: #009688;
-}
-section#features .media i.fa {
-  border: 2px solid #009688;
-  color: #009688;
-}
-section#features .media:hover i.fa {
-  color: #ffffff;
-  background: #009688;
-}
-section#features .media:hover h3 {
-  color: #009688;
-}
-section#features .media.active i.fa {
-  color: #ffffff;
-  background: #009688;
-}
-section#features .media.active .media-heading {
-  color: #009688;
-}
-section#reviews {
-  background: url("../img/freeze/bk-freeze.jpg");
-}
-section#reviews header {
-  color: #ffffff;
-}
-section#reviews header h1:after {
-  background: #ffffff;
-}
-section#reviews .review-filtering .review .review-person img {
-  border: 3px solid #ffffff;
-}
-section#reviews .review-filtering .review .review-comment {
-  background: #ffffff;
-}
-section#reviews .review-filtering .review .review-comment h3 {
-  color: #009688;
-}
-section#reviews .review-filtering .review .review-comment p span i {
-  color: #009688;
-}
-section#reviews .review-filtering .review .review-comment:after {
-  border-right-color: #ffffff;
-}
-section#reviews .review-filtering .slick-dots li button {
-  background: #ffffff;
-  border: 2px solid #ffffff;
-}
-section#reviews .review-filtering .slick-dots li.slick-active button {
-  background: #009688;
-}
-section#screens header h1:after {
-  background: #009688;
-}
-section#screens .slider div img {
-  border: 2px solid #e5e5e5;
-}
-section#screens .slider div h4 {
-  color: #999999;
-}
-section#screens .slider .slick-dots li button {
-  background: #999999;
-}
-section#screens .slider .slick-dots li.slick-active button {
-  background: #009688;
-}
-section#screens .filter a {
-  border: 2px solid #cccccc;
-  color: #999999;
-}
-section#screens .filter a:hover {
-  color: #ffffff;
-  background: #009688;
-  border-color: #009688;
-}
-section#screens .filter a.active {
-  color: #ffffff;
-  background: #009688;
-  border-color: #009688;
-}
-/* demo video Section */
-section#demo {
-  background: #f6f6f6;
-}
-section#demo header h1:after {
-  background: #009688;
-}
-/* Get app Section */
-section#getApp {
-  /*.bk-gradient(-45deg, @base, @baseDark); */
-  background: url("../img/freeze/bk-freeze-ga.jpg");
-}
-section#getApp header {
-  color: #ffffff;
-}
-section#getApp header h1:after {
-  background: #ffffff;
-}
-section#getApp .platforms .media {
-  border: 2px solid #ffffff;
-  color: #ffffff;
-}
-section#getApp .platforms .media a i {
-  color: #ffffff;
-}
-section#getApp .platforms .media a div.media-body {
-  color: #ffffff;
-}
-section#getApp .platforms .media:hover {
-  background: #ffffff;
-}
-section#getApp .platforms .media:hover a i,
-section#getApp .platforms .media:hover a div.media-body {
-  color: #009688;
-}
-/* support section */
-section#support header h1:after {
-  background: #009688;
-}
-section#support .media i.fa {
-  border: 2px solid #009688;
-  color: #009688;
-}
-section#support .media a {
-  color: #009688;
-}
-section#support .media:hover i.fa {
-  color: #ffffff;
-  background: #009688;
-}
-section#support .media:hover h3 {
-  color: #009688;
-}
-/* footer section */
-footer {
-  background: #009688;
-  /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #009688 0%, #00796B 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #009688), color-stop(100%, #00796B));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(-45deg, #009688 0%, #00796B 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(-45deg, #009688 0%, #00796B 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(-45deg, #009688 0%, #00796B 100%);
-  /* IE10+ */
-  background: linear-gradient(-45deg, #009688 0%, #00796B 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#009688, endColorstr=#00796B, GradientType=1);
-  /* IE6-9 fallback on horizontal gradient */
-}
-footer .social a {
-  border: 2px solid #ffffff;
-}
-footer .social a i {
-  color: #ffffff;
-}
-footer .social a:hover {
-  background: #ffffff;
-}
-footer .social a:hover i {
-  color: #009688;
-}
-footer .rights {
-  color: #ffffff;
-}
-footer .rights a {
-  color: #ffffff;
-  font-weight: 300;
-  text-decoration: none;
-}
-.navbar-toggle {
-  background-color: #CCC;
-  border: 1px solid rgba(0, 0, 0, 0);
-}
-.btn.btn-primary {
-  color: #009688;
-  border-color: #009688;
-}
-.btn.btn-primary:hover {
-  color: #ffffff;
-  background: #009688;
-  border-color: #009688;
-}
-.btn.btn-primary.inverse {
-  color: #ffffff;
-  border-color: #ffffff;
-}
-.btn.btn-primary.inverse:hover {
-  color: #ffffff;
-  background: #009688;
-  border-color: #009688;
-}
-.btn.btn-default {
-  background: #ffffff;
-  /* Old browsers */
-  background: -moz-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #ffffff), color-stop(100%, #cccccc));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
-  /* IE10+ */
-  background: linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#cccccc, GradientType=1);
-  /* IE6-9 fallback on horizontal gradient */
-  color: #00796B;
-}
-.btn.btn-default:hover {
-  color: #00796B;
-}
-form .form-control:focus {
-  border-color: #009688;
-  color: #999999;
-}
-@media screen and (max-width: 640px) {
-  header .navbar-default .navbar-toggle:hover,
-  header .navbar-default .navbar-toggle:focus {
-    background: none;
-  }
-  header .navbar-default ul.navbar-nav li a {
-    color: #ffffff;
-    border-bottom: 1px solid #c36724;
-  }
-  header .navbar-default ul.navbar-nav li a.getApp {
-    color: #ffffff;
-  }
-  header .navbar-default ul.navbar-nav li a:after {
-    display: none;
-  }
-  header .navbar-default ul.navbar-nav li a:hover {
-    color: #009688;
-  }
-  header .navbar-default .navbar-collapse {
-    background: #00796B;
-  }
-  header .navbar-default.scrolled {
-    background: #00796B;
-  }
-  header .navbar-default.scrolled ul.navbar-nav li a {
-    color: #ffffff;
-  }
-  header .navbar-default.scrolled ul.navbar-nav li a:hover {
-    color: #009688;
-  }
-}
-.pre-loader {
-  background: #00796B;
 }
